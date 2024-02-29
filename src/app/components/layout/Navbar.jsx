@@ -22,7 +22,7 @@ function navbar() {
             <input
               type="search"
               placeholder="살까말까 고민된다면 검색해보세요!"
-              className="bg-white pl-[40px] pr-[40px]"
+              className="bg-white pl-[40px] pr-[40px] outline-none"
             />
           </div>
         </div>
