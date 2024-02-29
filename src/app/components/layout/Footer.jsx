@@ -72,8 +72,8 @@ export default function footer() {
   return (
     <footer className="hidden xl:block p-0 max-w-none bg-[#f7f7f7] mt-[120px] min-w-[360px] text-[#666666] ">
       <div className="text-center justify-center flex pt-[32px] w-full border-b border-solid text-sm border-[#eeeeee] p-[20px] ">
-        {links.map((link, index) => (
-          <FooterLink key={index} link={link} />
+        {links.map((link, int) => (
+          <FooterLink key={int} link={link} />
         ))}
       </div>
 
