@@ -5,6 +5,9 @@ import MobileFoter from "./components/layout/MobileFoter";
 import Footer from "./components/layout/Footer";
 import CategoryProducts from "./CategoryProducts";
 import { useQuery } from "react-query";
+import Banner from "./components/layout/Banner";
+import Service from "./components/layout/Service";
+
 
 export default function Home() {
   const fetchHelper = async (url) => {
@@ -25,7 +28,10 @@ export default function Home() {
     <div>
       <Navbar />
       <MobileFoter />
-      <div className="container py-10 mb-40 px-4 lg:px-8">
+      <Banner/>
+      <div className="container py-5 mb-40 px-4 lg:px-8 w-full mx-auto">
+        
+        <Service/>
         {categories === null || (categoriesLoading && <h1>Loading...</h1>)}
         {categoriesError && <h1>Something went wrong, try again later</h1>}
         {categories?.items?.map((category) => {

@@ -13,11 +13,12 @@ function MyApp({ Component, pageProps }) {
           <link rel="android-chrome" sizes="192x192" href="/android-chrome-192x192.png" /> 
           <link rel="android-chrome" sizes="180x180" href="/android-chrome-512x512.png" />
           <link rel="manifest" href="/site.webmanifest" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
           <title></title>
         </Head>
       <main>
         
-        <Navbar />
+        
         <Component {...pageProps} />
         <Footer />
       </main>

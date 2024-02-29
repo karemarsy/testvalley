@@ -70,7 +70,7 @@ button:disabled svg {
   }
   @media (min-width: 1280px) {
     .container {
-      max-width: 1280px;
+      max-width: 75%;
     }
   }
   @media (min-width: 1536px) {
@@ -81,4 +81,15 @@ button:disabled svg {
 }
 .swiper-backface-hidden .swiper-slide {
   width: 190px!important;
+}
+.test{
+  width: 100% !important;
+}
+
+.test:after {
+  right: -100px;
+}
+
+.test:before {
+  right: -100px;
 }
