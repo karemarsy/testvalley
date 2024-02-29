@@ -9,8 +9,8 @@ export default function FooterLink({ link, text }) {
         <span className=" leading-[18px] cursor-pointer text-left">{link}</span>
       </a>
       <span className="mr-[8px] text-[#dddddd] text-sm">
-          <VerticalBarIcon />
-        </span>
+        <VerticalBarIcon />
+      </span>
     </div>
   );
 }

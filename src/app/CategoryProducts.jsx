@@ -5,7 +5,6 @@ import Product from "./components/layout/Product";
 import RightChevron from "./assets/right_chevron.svg";
 import LeftChevron from "./assets/left_chevron.svg";
 
-
 // Install Swiper modules
 SwiperCore.use([Autoplay]);
 

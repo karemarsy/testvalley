@@ -1,7 +1,7 @@
 "use client";
 
 import Navbar from "./components/layout/Navbar";
-import MobileFoter from "./components/layout/MobileFoter";
+import MobileFooter from "./components/layout/MobileFooter";
 import Footer from "./components/layout/Footer";
 import CategoryProducts from "./CategoryProducts";
 import { useQuery } from "react-query";
@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <MobileFoter />
+      <MobileFooter />
       <Banner/>
       <div className="container py-5 mb-40 px-4 lg:px-8 w-full mx-auto">
         

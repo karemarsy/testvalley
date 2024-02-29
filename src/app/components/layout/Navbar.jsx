@@ -10,7 +10,9 @@ function navbar() {
     <nav className=" hidden md:block w-full h-[72px] bg-white sticky border-b border-solid border-b-[#EEEEEE]">
       <div className="w-[960px] m-auto flex justify-between items-center align-middle h-full">
         <div className="flex items-center justify-center ">
-          <a href="/"><Logo className="mr-4 w-[128.345px] h-[25.093px]" /></a>
+          <a href="/">
+            <Logo className="mr-4 w-[128.345px] h-[25.093px]" />
+          </a>
           <div className="text-[#99CC99] cursor-pointer flex items-center">
             <span className="mr-4 ">
               <MenuIcon />
@@ -30,7 +32,7 @@ function navbar() {
           <button className="flex justify-center mr-2 text-center text-sm font-semibold leading-[14px] tracking-tighter">
             <ButtonIcon />
           </button>
-          <VerticalBarIcon className="mr-[12px]"/>
+          <VerticalBarIcon className="mr-[12px]" />
           <button cursorshover="true">로그인 / 회원가입</button>
         </div>
       </div>

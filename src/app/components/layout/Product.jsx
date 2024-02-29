@@ -17,7 +17,13 @@ export default function Product({ product }) {
   return (
     <div>
       <div className="relative">
-        <Image src={media[0].uri} width={200} height={300} alt={title}  className=" rounded-[8px] mb-2"/>
+        <Image
+          src={media[0].uri}
+          width={200}
+          height={300}
+          alt={title}
+          className=" rounded-[8px] mb-2"
+        />
         {tagsOnImage?.length > 0 && (
           <span className="absolute left-1 bottom-1 flex items-center gap-0.5 bg-[rgb(0,158,138)] rounded-sm text-white text-xs tracking-[-3] p-1">
             <ReturnIcon />
@@ -25,7 +31,9 @@ export default function Product({ product }) {
           </span>
         )}
       </div>
-      <p className="text-[rgb(51,51,51)] leading-5 text-[13px] md:text-[15px]">{shortTitle}</p>
+      <p className="text-[rgb(51,51,51)] leading-5 text-[13px] md:text-[15px]">
+        {shortTitle}
+      </p>
       <p className="font-semibold md:text-lg text-[15px] mt-2 md:mt-0 text-[#424242]">
         {priceInfo.discountRate && (
           <span className="text-red-500">{priceInfo.discountRate}%</span>

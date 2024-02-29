@@ -23,7 +23,7 @@ const Service = () => {
         setShortcutData(response.data);
       } catch (error) {
         setError(error.message);
-      } 
+      }
     };
 
     fetchData();
