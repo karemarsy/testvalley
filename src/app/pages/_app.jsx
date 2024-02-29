@@ -13,9 +13,10 @@ function MyApp({ Component, pageProps }) {
           <link rel="android-chrome" sizes="192x192" href="/android-chrome-192x192.png" /> 
           <link rel="android-chrome" sizes="180x180" href="/android-chrome-512x512.png" />
           <link rel="manifest" href="/site.webmanifest" />
-          <title>Kodex für Medienhäuser zum Schutz von Journalist*innen</title>
+          <title></title>
         </Head>
       <main>
+        
         <Navbar />
         <Component {...pageProps} />
         <Footer />
