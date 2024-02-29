@@ -28,7 +28,7 @@ export default function CategoryProducts({ category }) {
       <div className="col-span-2 lg:col-span-1 flex flex-col justify-between">
         <div className="pr-[40px] bg-white pb-5">
           <h1 className="uppercase text-2xl font-semibold text-[18px] text-[#333333] leading-6 md:text-2xl">{title}</h1>
-          <p className="uppercase text-secondary text-xs mt-3">
+          <p className="uppercase text-secondary text-xs mt-3 text-[#9999]">
             {category.subtitle}
           </p>
         </div>
