@@ -82,14 +82,3 @@ button:disabled svg {
 .swiper-backface-hidden .swiper-slide {
   width: 190px!important;
 }
-.test{
-  width: 100% !important;
-}
-
-.test:after {
-  right: -100px;
-}
-
-.test:before {
-  right: -100px;
-}
